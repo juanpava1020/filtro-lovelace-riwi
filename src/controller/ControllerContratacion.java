@@ -32,6 +32,7 @@ public class ControllerContratacion {
     }
     public static void update(){
 
+
         int id_contratacion = Integer.parseInt(JOptionPane.showInputDialog(listarString() + "\nIngrese el id de la contratacion que desea actualizar"));
         Contratacion objContratacion = (Contratacion) instanceModel().findByID(id_contratacion);
 
